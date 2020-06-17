@@ -1,0 +1,60 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.rickyhr.loginpreferenceapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="25"
+8-->/home/ricky_hr/AndroidStudioProjects/LoginPreferenceApp/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/home/ricky_hr/AndroidStudioProjects/LoginPreferenceApp/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/home/ricky_hr/AndroidStudioProjects/LoginPreferenceApp/app/src/main/AndroidManifest.xml:5:5-23:19
+12        android:allowBackup="true"
+12-->/home/ricky_hr/AndroidStudioProjects/LoginPreferenceApp/app/src/main/AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.1.0] /home/ricky_hr/.gradle/caches/transforms-2/files-2.1/1cd7eff88f5e86d0249af2958bf465f0/core-1.1.0/AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:extractNativeLibs="false"
+16        android:icon="@mipmap/ic_launcher"
+16-->/home/ricky_hr/AndroidStudioProjects/LoginPreferenceApp/app/src/main/AndroidManifest.xml:7:9-43
+17        android:label="@string/app_name"
+17-->/home/ricky_hr/AndroidStudioProjects/LoginPreferenceApp/app/src/main/AndroidManifest.xml:8:9-41
+18        android:roundIcon="@mipmap/ic_launcher_round"
+18-->/home/ricky_hr/AndroidStudioProjects/LoginPreferenceApp/app/src/main/AndroidManifest.xml:9:9-54
+19        android:supportsRtl="true"
+19-->/home/ricky_hr/AndroidStudioProjects/LoginPreferenceApp/app/src/main/AndroidManifest.xml:10:9-35
+20        android:testOnly="true"
+21        android:theme="@style/AppTheme" >
+21-->/home/ricky_hr/AndroidStudioProjects/LoginPreferenceApp/app/src/main/AndroidManifest.xml:11:9-40
+22        <activity android:name="com.rickyhr.loginpreferenceapp.database.activity_berita" />
+22-->/home/ricky_hr/AndroidStudioProjects/LoginPreferenceApp/app/src/main/AndroidManifest.xml:12:9-62
+22-->/home/ricky_hr/AndroidStudioProjects/LoginPreferenceApp/app/src/main/AndroidManifest.xml:12:19-59
+23        <activity android:name="com.rickyhr.loginpreferenceapp.database.berita" />
+23-->/home/ricky_hr/AndroidStudioProjects/LoginPreferenceApp/app/src/main/AndroidManifest.xml:13:9-53
+23-->/home/ricky_hr/AndroidStudioProjects/LoginPreferenceApp/app/src/main/AndroidManifest.xml:13:19-50
+24        <activity android:name="com.rickyhr.loginpreferenceapp.activity_register" />
+24-->/home/ricky_hr/AndroidStudioProjects/LoginPreferenceApp/app/src/main/AndroidManifest.xml:14:9-55
+24-->/home/ricky_hr/AndroidStudioProjects/LoginPreferenceApp/app/src/main/AndroidManifest.xml:14:19-52
+25        <activity android:name="com.rickyhr.loginpreferenceapp.activity_login" />
+25-->/home/ricky_hr/AndroidStudioProjects/LoginPreferenceApp/app/src/main/AndroidManifest.xml:15:9-52
+25-->/home/ricky_hr/AndroidStudioProjects/LoginPreferenceApp/app/src/main/AndroidManifest.xml:15:19-49
+26        <activity android:name="com.rickyhr.loginpreferenceapp.MainActivity" >
+26-->/home/ricky_hr/AndroidStudioProjects/LoginPreferenceApp/app/src/main/AndroidManifest.xml:16:9-22:20
+26-->/home/ricky_hr/AndroidStudioProjects/LoginPreferenceApp/app/src/main/AndroidManifest.xml:16:19-47
+27            <intent-filter>
+27-->/home/ricky_hr/AndroidStudioProjects/LoginPreferenceApp/app/src/main/AndroidManifest.xml:17:13-21:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->/home/ricky_hr/AndroidStudioProjects/LoginPreferenceApp/app/src/main/AndroidManifest.xml:18:17-69
+28-->/home/ricky_hr/AndroidStudioProjects/LoginPreferenceApp/app/src/main/AndroidManifest.xml:18:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->/home/ricky_hr/AndroidStudioProjects/LoginPreferenceApp/app/src/main/AndroidManifest.xml:20:17-77
+30-->/home/ricky_hr/AndroidStudioProjects/LoginPreferenceApp/app/src/main/AndroidManifest.xml:20:27-74
+31            </intent-filter>
+32        </activity>
+33    </application>
+34
+35</manifest>
